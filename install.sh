@@ -27,8 +27,8 @@ if ! command -v composer &> /dev/null; then
 fi
 
 echo "Cloning Laravel project..."
-git clone https://github.com/your-laravel-repository.git
-cd your-laravel-repository || exit
+git clone https://github.com/akbarjimi/shab.git
+cd shab || exit
 
 echo "Installing Laravel Sail..."
 php composer.phar require laravel/sail --dev
